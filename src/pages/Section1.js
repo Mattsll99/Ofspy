@@ -25,7 +25,7 @@ const Section1 = () => {
       <Top>
         <TopButton>
           <Cover>
-            <Logo src="../assets/of_white_logo.png" />
+            <Logo src="../assets/of_white_logo.png" alt=''/>
           </Cover>
           <Text>Launch on 8 October</Text>
         </TopButton>
@@ -46,33 +46,33 @@ const Section1 = () => {
       </Top>
       <Bottom>
         <Circle>
-          <Profile src="../assets/bella.jpg"/>
+          <Profile src="../assets/bella.jpg" alt=''/>
         </Circle>
         <Circle style={{marginLeft:"-8px"}}>
-          <Profile src="../assets/tyga.jpeg"/>
+          <Profile src="../assets/tyga.jpeg" alt=''/>
         </Circle>
         <Circle style={{marginLeft:"-8px"}}>
-        <Profile src="../assets/coco.jpg"/>
+        <Profile src="../assets/coco.jpg" alt=''/>
         </Circle>
         <Circle style={{marginLeft:"-8px"}}>
-        <Profile src="../assets/bhad.webp"/>
+        <Profile src="../assets/bhad.webp" alt=''/>
         </Circle>
         <Circle style={{marginLeft:"-8px"}}>
-        <Profile src="../assets/pia.webp"/>
+        <Profile src="../assets/pia.webp" alt=''/>
         </Circle>
       </Bottom>
       <Gallery>
         <Sticky>
-          <Sticker source="../assets/of_white_logo.png"/>
+          <Sticker source="../assets/of_white_logo.png" alt=''/>
         </Sticky>
         <Sticky2>
-          <Sticker source="../assets/fansly_heart.png"/>
+          <Sticker source="../assets/fansly_heart.png" alt=''/>
         </Sticky2>
         <Sticky3>
-        <Sticker source="../assets/patreon.png"/>
+        <Sticker source="../assets/patreon.png" alt=''/>
         </Sticky3>
         <Sticky4>
-        <Sticker source="../assets/mym_logo.png"/>
+        <Sticker source="../assets/mym_logo.png" alt=''/>
         </Sticky4>
       </Gallery>
     </Container>

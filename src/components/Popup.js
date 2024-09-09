@@ -11,7 +11,7 @@ const Popup = () => {
     
       <Wrapper onClick={stopPropagation}>
         <Icon>💔</Icon>
-        <Title>You're out of credit</Title>
+        <Title>You are out of credit</Title>
         <Subtitle>Your free access is over. You can fix it!</Subtitle>
         <Button>Get Lifetime Access</Button>
       </Wrapper>

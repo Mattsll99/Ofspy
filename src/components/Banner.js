@@ -8,7 +8,7 @@ const Banner = () => {
       <Text>BE TOP LISTED</Text>
       <Text style={{ marginLeft: "20px" }}>•</Text>
       <Text style={{ marginLeft: "20px" }}>CLICK HERE</Text>
-      <Image src="../assets/white_click.png" />
+      <Image src="../assets/white_click.png" alt=""/>
     </Wrap>
   ));
 
