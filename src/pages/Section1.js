@@ -117,6 +117,9 @@ const CoverPayment = styled.div`
   top: 0; 
   z-index: 10;
   padding-top: 100px;
+  @media(max-width: 540px) {
+    position: absolute;
+  }
 `;
 
 const Gallery = styled.div`
