@@ -30,7 +30,7 @@ const Bottom = () => {
   }, [isHovered]);
 
   return (
-    <Wrapper>
+    <Wrapper display={display}>
       {
         display === true &&
         <CoverPayment onClick={handleClose}>
@@ -56,7 +56,7 @@ export default Bottom;
 const Wrapper = styled.div`
   height: auto; 
   width: auto; 
-  z-index: 3;
+  z-index: ${({ display }) => (display ? 3 : 2)};
   margin-top: 100px;
 `;
 
@@ -105,7 +105,7 @@ const CoverPayment = styled.div`
   display: flex; 
   //align-items: center; 
   justify-content: center; 
-  //padding-top: 160px;
+  padding-top: 100px;
   position: fixed; 
   top: 0; 
   z-index: 50;

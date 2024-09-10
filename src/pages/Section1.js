@@ -9,10 +9,12 @@ const Section1 = () => {
 
   const handledisplay = () => {
     setDisplay(true)
+    document.body.style.overflow = 'hidden'; // Disable scrolling
   }
 
   const handleClose = () => {
     setDisplay(false)
+    document.body.style.overflow = 'auto'; // Re-enable scrolling
   }
 
   return (
@@ -92,12 +94,14 @@ const fadeInOut = keyframes`
 const Container = styled.div`
   width: 100%;
   display: flex;
+  height: auto;
   flex-direction: column;
   //z-index: 3;
   z-index: 3;
   margin-top: 60px;
   align-items: center;
   padding-top: 100px;
+  overflow: hidden;
   //position: fixed;
 `;
 
@@ -109,9 +113,10 @@ const CoverPayment = styled.div`
   //align-items: center; 
   justify-content: center; 
   //padding-top: 160px;
-  position: fixed; 
+  position: fixed;
   top: 0; 
   z-index: 10;
+  padding-top: 100px;
 `;
 
 const Gallery = styled.div`

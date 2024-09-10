@@ -16,7 +16,7 @@ const Payment = ({ onClick }) => {
           <Price style={{color:"#B7B7B7"}}>$410</Price>
           </Box>
           <Box>
-          <Price>$89</Price>
+          <Price>$269</Price>
           </Box>
         </PriceDiv>
         <SubDiv>
@@ -96,9 +96,10 @@ const Wrapper = styled.div`
   border: solid 2px #5D93FF;
   color: #252525;
   padding-bottom: 20px;
-  margin-top: 160px;
+  //margin-top: 160px;
   @media(max-width: 640px) {
     height: auto;
+    width: auto;
   }
   //z-index: 10;
 `;
