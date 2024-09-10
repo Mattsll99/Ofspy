@@ -102,6 +102,9 @@ const Container = styled.div`
   align-items: center;
   padding-top: 100px;
   overflow: hidden;
+  @media(max-width: 750px) {
+    padding-top: 70px;
+  }
   //position: fixed;
 `;
 
@@ -119,6 +122,8 @@ const CoverPayment = styled.div`
   padding-top: 100px;
   @media(max-width: 540px) {
     position: absolute;
+    height: inherit;
+    padding-bottom: 20px;
   }
 `;
 
@@ -250,7 +255,7 @@ const Title = styled.h1`
   font-weight: 500;
   margin: 5px 0;
   @media(max-width: 750px) {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 `;
 
@@ -259,9 +264,7 @@ const Subtitle = styled.p`
   font-size: 18px;
   line-height: 1.5;
   @media(max-width: 750px) {
-    font-size: 2.5vw;
-  }
-  @media(max-width: 750px) {
+    font-size: 3vw;
     color: #2e2e2e;
   }
   //margin: 20px 0;
@@ -313,6 +316,9 @@ const Button2 = styled.div`
   margin-left: 20px;
   cursor: pointer;
   z-index: 6;
+  @media(max-width: 360px) {
+    border: solid 1px #2E2E2E;
+  }
 `;
 
 const Bottom = styled.div`

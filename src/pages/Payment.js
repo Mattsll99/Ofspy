@@ -16,7 +16,7 @@ const Payment = ({ onClick }) => {
           <Price style={{color:"#B7B7B7"}}>$410</Price>
           </Box>
           <Box>
-          <Price>$269</Price>
+          <Price>$89</Price>
           </Box>
         </PriceDiv>
         <SubDiv>
